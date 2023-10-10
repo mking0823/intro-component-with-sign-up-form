@@ -1,13 +1,48 @@
 *{
     margin:0;
     padding:0;
-    box-sizing:border_box;
+    box-sizing:border-box;
 }
 
 
+body{
+    background-color: #FF7979;
+} 
 main{
   max-width:327px;
   width:100%;
   margin: 0 auto; 
   text-align: center; 
+  background: url(/images/bg-intro-mobile.png);
+  padding:1.5rem;
+  color: white;
+}
+
+form{
+    background-color: white;
+    padding:1.5rem;
+    border-radius: 10px;
+}
+input{
+    width: 100%;
+    font-size: .875 rem;
+    padding:1em;
+    border-radius: 5px;
+    border:1px solid  #DEDEDE;
+    margin-bottom: 16px;
+}
+h1{
+    margin-bottom: 16px;
+    font-size: 1.75rem;
+}
+.main_text{
+    margin-bottom: 64px;
+}
+.purple_container{
+background-color:#5E54A4;
+padding: 1em 3.5em;
+border-radius: 5px;
+text-align: center;
+font-size:15px;
+margin-bottom:24px;
 }
